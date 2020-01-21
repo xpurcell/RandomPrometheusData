@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "ed948200e1e4ac18a1796fd3f86dd9c25128fcb2"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "rand 1-10/1.0.0": {
+        "dependencies": {
+          "prometheus-net": "3.3.0"
+        },
+        "runtime": {
+          "rand 1-10.dll": {}
+        }
+      },
+      "prometheus-net/3.3.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Prometheus.NetCore.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.3.0.0"
+          },
+          "lib/netcoreapp2.1/Prometheus.NetStandard.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rand 1-10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "prometheus-net/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6NYWlNau7MAWokS4Ila42mVCqDpe1YhpxBTQIeIUXOGVC/rScn9JhMAibD6x9H0+Qj+tHzMYERl4+UkUX8+3iQ==",
+      "path": "prometheus-net/3.3.0",
+      "hashPath": "prometheus-net.3.3.0.nupkg.sha512"
+    }
+  }
+}
